@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8791D0751741E12B00555A63 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8791D0741741E12B00555A63 /* preview.png */; };
+		AFAD35E417416BED00A5A379 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAD35E317416BED00A5A379 /* Cocoa.framework */; };
+		AFAD35E617416BED00A5A379 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAD35E517416BED00A5A379 /* AppleScriptObjC.framework */; };
+		AFAD35F017416BED00A5A379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFAD35EE17416BED00A5A379 /* InfoPlist.strings */; };
+		AFAD35F217416BED00A5A379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD35F117416BED00A5A379 /* main.m */; };
+		AFAD35F617416BED00A5A379 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AFAD35F417416BED00A5A379 /* Credits.rtf */; };
+		AFAD35F817416BED00A5A379 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = AFAD35F717416BED00A5A379 /* AppDelegate.applescript */; };
+		AFAD35FB17416BEE00A5A379 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAD35F917416BEE00A5A379 /* MainMenu.xib */; };
+		AFAD360217416EC400A5A379 /* broom.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAD360117416EC400A5A379 /* broom.png */; };
+		AFAD360417416F6000A5A379 /* broomanddustpan.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAD360317416F6000A5A379 /* broomanddustpan.png */; };
+		AFAD360617416FB000A5A379 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAD360517416FB000A5A379 /* remove.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8791D0741741E12B00555A63 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		AFAD35E017416BED00A5A379 /* SongRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAD35E317416BED00A5A379 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFAD35E517416BED00A5A379 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		AFAD35E817416BED00A5A379 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AFAD35E917416BED00A5A379 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AFAD35EA17416BED00A5A379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFAD35ED17416BED00A5A379 /* SongRedux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SongRedux-Info.plist"; sourceTree = "<group>"; };
+		AFAD35EF17416BED00A5A379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFAD35F117416BED00A5A379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFAD35F317416BED00A5A379 /* SongRedux-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SongRedux-Prefix.pch"; sourceTree = "<group>"; };
+		AFAD35F517416BED00A5A379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AFAD35F717416BED00A5A379 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		AFAD35FA17416BEE00A5A379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AFAD360117416EC400A5A379 /* broom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broom.png; sourceTree = "<group>"; };
+		AFAD360317416F6000A5A379 /* broomanddustpan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broomanddustpan.png; sourceTree = "<group>"; };
+		AFAD360517416FB000A5A379 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAD35DD17416BED00A5A379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD35E417416BED00A5A379 /* Cocoa.framework in Frameworks */,
+				AFAD35E617416BED00A5A379 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAD35D717416BED00A5A379 = {
+			isa = PBXGroup;
+			children = (
+				AFAD35EB17416BED00A5A379 /* SongRedux */,
+				AFAD35E217416BED00A5A379 /* Frameworks */,
+				AFAD35E117416BED00A5A379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAD35E117416BED00A5A379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD35E017416BED00A5A379 /* SongRedux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAD35E217416BED00A5A379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD35E317416BED00A5A379 /* Cocoa.framework */,
+				AFAD35E517416BED00A5A379 /* AppleScriptObjC.framework */,
+				AFAD35E717416BED00A5A379 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFAD35E717416BED00A5A379 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD35E817416BED00A5A379 /* AppKit.framework */,
+				AFAD35E917416BED00A5A379 /* CoreData.framework */,
+				AFAD35EA17416BED00A5A379 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AFAD35EB17416BED00A5A379 /* SongRedux */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD35F717416BED00A5A379 /* AppDelegate.applescript */,
+				AFAD35F917416BEE00A5A379 /* MainMenu.xib */,
+				AFAD35EC17416BED00A5A379 /* Supporting Files */,
+			);
+			path = SongRedux;
+			sourceTree = "<group>";
+		};
+		AFAD35EC17416BED00A5A379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8791D0741741E12B00555A63 /* preview.png */,
+				AFAD360517416FB000A5A379 /* remove.png */,
+				AFAD360317416F6000A5A379 /* broomanddustpan.png */,
+				AFAD360117416EC400A5A379 /* broom.png */,
+				AFAD35ED17416BED00A5A379 /* SongRedux-Info.plist */,
+				AFAD35EE17416BED00A5A379 /* InfoPlist.strings */,
+				AFAD35F117416BED00A5A379 /* main.m */,
+				AFAD35F317416BED00A5A379 /* SongRedux-Prefix.pch */,
+				AFAD35F417416BED00A5A379 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAD35DF17416BED00A5A379 /* SongRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD35FE17416BEE00A5A379 /* Build configuration list for PBXNativeTarget "SongRedux" */;
+			buildPhases = (
+				AFAD35DC17416BED00A5A379 /* Sources */,
+				AFAD35DD17416BED00A5A379 /* Frameworks */,
+				AFAD35DE17416BED00A5A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongRedux;
+			productName = SongRedux;
+			productReference = AFAD35E017416BED00A5A379 /* SongRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAD35D817416BED00A5A379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Exhume Software";
+			};
+			buildConfigurationList = AFAD35DB17416BED00A5A379 /* Build configuration list for PBXProject "SongRedux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFAD35D717416BED00A5A379;
+			productRefGroup = AFAD35E117416BED00A5A379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAD35DF17416BED00A5A379 /* SongRedux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAD35DE17416BED00A5A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD35F017416BED00A5A379 /* InfoPlist.strings in Resources */,
+				AFAD35F617416BED00A5A379 /* Credits.rtf in Resources */,
+				AFAD35FB17416BEE00A5A379 /* MainMenu.xib in Resources */,
+				AFAD360217416EC400A5A379 /* broom.png in Resources */,
+				AFAD360417416F6000A5A379 /* broomanddustpan.png in Resources */,
+				AFAD360617416FB000A5A379 /* remove.png in Resources */,
+				8791D0751741E12B00555A63 /* preview.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAD35DC17416BED00A5A379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD35F217416BED00A5A379 /* main.m in Sources */,
+				AFAD35F817416BED00A5A379 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFAD35EE17416BED00A5A379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD35EF17416BED00A5A379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFAD35F417416BED00A5A379 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD35F517416BED00A5A379 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AFAD35F917416BEE00A5A379 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD35FA17416BEE00A5A379 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAD35FC17416BEE00A5A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFAD35FD17416BEE00A5A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFAD35FF17416BEE00A5A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongRedux/SongRedux-Prefix.pch";
+				INFOPLIST_FILE = "SongRedux/SongRedux-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFAD360017416BEE00A5A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongRedux/SongRedux-Prefix.pch";
+				INFOPLIST_FILE = "SongRedux/SongRedux-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAD35DB17416BED00A5A379 /* Build configuration list for PBXProject "SongRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD35FC17416BEE00A5A379 /* Debug */,
+				AFAD35FD17416BEE00A5A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAD35FE17416BEE00A5A379 /* Build configuration list for PBXNativeTarget "SongRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD35FF17416BEE00A5A379 /* Debug */,
+				AFAD360017416BEE00A5A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAD35D817416BED00A5A379 /* Project object */;
+}
