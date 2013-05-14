@@ -1,7 +1,7 @@
 SongRedux
 =========
 
-AudialHub makes it's return!
+AudialHub makes its return!
 
 Please help us port to ApplescriptObjC, if you can. We're slowly working on it.
 
